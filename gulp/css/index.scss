@@ -1,0 +1,13 @@
+/**
+ * Importación de archivos (en orden de uso).
+*/
+@import './normalize.scss';
+@import './mini.scss';
+@import './site/colors.scss';
+@import './site/mixins.scss';
+@import './global.scss';
+@import './site/buttons.scss';
+
+@import './site/header.scss';
+@import './site/home.scss';
+@import './site/footer.scss';

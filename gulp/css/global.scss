@@ -1,0 +1,35 @@
+body {
+  color: $black;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  overflow-x: hidden;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding: 0 20px;
+  position: relative;
+  @include mq(tablet, min) {
+      padding: 0 50px;
+  }
+  @include mq(desktop, min) {
+      padding: 0 100px;
+  }
+  @include mq(large-desktop, min) {
+      padding: 0 140px;
+  }
+  &.no-padding {
+      padding: 0;
+      max-width: 100%;
+  }
+}
+
+img{
+  display: block;
+  width: 100%;
+}
